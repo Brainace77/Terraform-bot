@@ -7,7 +7,7 @@ resource "aws_vpc" "brain" {
 }
 
 #Create Subnet
-
+#Hello
 resource "aws_subnet" "pub-sub" {
   vpc_id     = aws_vpc.brain.id
   cidr_block = "10.0.0.0/24"
